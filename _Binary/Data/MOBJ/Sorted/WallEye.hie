@@ -1,0 +1,7 @@
+HP: 5
+#Group -> Parent (Collidable) (HP) (Pivot.x, Pivot.y, Pivot.z)
+Body -> NULL (1) (1) ( 0.00, 0.00, 0.00 )
+Eyes -> Body (1) (1) ( 0.00, 0.00, 0.00 )
+Hands -> Body (1) (1) ( 0.00, 0.00, 0.00 )
+Foot_R -> Body (1) (1) ( 0.00, 0.00, 0.00 )
+Foot_L -> Body (1) (1) ( 0.00, 0.00, 0.00 )

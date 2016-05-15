@@ -1,0 +1,29 @@
+newmtl Green
+illum 4
+Kd 0.00 1.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump BrickNormal.png -bm 1
+map_Ks SquaresSpecular.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00
+newmtl Red
+illum 4
+Kd 1.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+bump SquaresNormal.png -bm 1
+Ni 1.00
+Ks 0.00 0.00 0.00
+map_Ks SquaresSpecular.png
+Ns 18.00
+newmtl Texture
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd UV.jpg
+Ni 1.00
+Ks 0.50 0.50 0.50
+Ns 18.00

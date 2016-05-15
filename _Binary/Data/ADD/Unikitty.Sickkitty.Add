@@ -1,0 +1,26 @@
+Ver: 1
+MaterialName: Body_S
+	Diffuse: UnikittyBodyS.png
+MaterialName: Face_S
+	Diffuse: UnikittyFaceS.png
+MaterialName: Tail_S
+	Diffuse: UnikittyTailS.png
+MaterialName: 330
+	Diffuse: 330_OliveGreen.png
+MaterialName: 151
+	Diffuse: 151_SandGreen.png
+MaterialName: 311_m
+	Diffuse: 311_mTransparentBrightGreen.png
+	
+MaterialSwap: Body_sg -> Body_S
+MaterialSwap: Face_sg -> Face_S
+MaterialSwap: Tail_sg -> Tail_S
+MaterialSwap: EarL_sg -> 330
+MaterialSwap: EarR_sg -> 330
+MaterialSwap: Horn_sg -> 330
+MaterialSwap: HeadT_sg -> 151
+MaterialSwap: Head_sg -> 151
+MaterialSwap: HeadB_sg -> 311_m
+MaterialSwap: Neck_sg -> 311_m
+MaterialSwap: LegBB_sg -> 330
+MaterialSwap: LegFB_sg -> 311_m
