@@ -10,6 +10,11 @@ void LSytem::AddAxiom(char key, std::string rule)
 	axioms[key] = rule;
 }
 
+void LSytem::ClearAxioms()
+{
+	axioms.clear();
+}
+
 std::string LSytem::ApplyAxioms(std:: string system)
 {
 	std::string applied = "";

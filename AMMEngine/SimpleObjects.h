@@ -20,6 +20,7 @@ public:
 
 class BoxObject : public GameObject {
 public:
+	glm::vec3 defaultColor = glm::vec3(0, 0, 0);
 	BoxObject() { BoxObject(1.0f, 2.0f, 1.0f); }
 	BoxObject(float length, float width, float height) 
 	{
@@ -32,9 +33,7 @@ public:
 
 	void Update(float dt)
 	{
-		//TODO: Discuss whether or not calling this should be an "option" of those inheriting form GameObject
-		//m_collisionData->UpdateBoundingBoxes();
-		SetColor(glm::vec3(0.0f, 0.0f, 1.0f));
+		SetColor(defaultColor);
 	};
 
 	virtual void onCollision(GameObject* other) override

@@ -35,8 +35,8 @@ int main(void)
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	
-	int width = 1280;
-	int height = 800;
+	int width = 1920;
+	int height = 1080;
 
 	// Open a window and create its OpenGL context
 	if(FULLSCREEN)
@@ -130,8 +130,13 @@ int main(void)
 		// Swap buffers
 		glfwSwapBuffers(window);
 		glfwPollEvents();
-		if (glfwGetKey(window, GLFW_KEY_SEMICOLON))
-			debug == false ? debug = true : debug = false;
+		if (glfwGetKey(window, GLFW_KEY_LEFT_ALT))
+		{
+			if (glfwGetKey(window, GLFW_KEY_SEMICOLON))
+				debug = true;
+			if (glfwGetKey(window, GLFW_KEY_APOSTROPHE))
+				debug = false;
+		}
 	} // Check if the ESC key was pressed or the window was closed
 	while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&
 	glfwWindowShouldClose(window) == 0);
